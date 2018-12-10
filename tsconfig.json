@@ -6,7 +6,7 @@
     "strict": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
         "dm/*": [
             "./src/*"
@@ -14,6 +14,6 @@
     },
   },
   "include": [
-    "src/**/*"
+    "./src/**/*.ts"
   ]
 }
